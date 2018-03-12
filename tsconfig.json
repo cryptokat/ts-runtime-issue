@@ -1,4 +1,7 @@
 {
+  "files": [
+    "Hash.ts"
+  ],
   "exclude": [
     "dist",
     "node_modules"

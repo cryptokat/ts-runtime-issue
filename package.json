@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "yarn tsr Hash.ts -c tsconfig.json"
+    "build-tsr": "yarn tsr Hash.ts -c tsconfig.json",
+    "build-tsc": "yarn tsc -p ."
   },
   "devDependencies": {
     "ts-runtime": "^0.1.35",
