@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "declaration": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "lib": ["es5", "es6"]
+  }
+}
